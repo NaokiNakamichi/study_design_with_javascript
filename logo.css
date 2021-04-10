@@ -1,0 +1,79 @@
+/* =========================================== */
+/* TextアニメーションCSS コード */
+/* =========================================== */
+
+.logo0{
+    stroke: #000; /* 文字色 */
+    fill: none; /* 塗りつぶし無し */
+    stroke-width: 2.5; /* 文字の太さ */
+    stroke-dasharray:  4000; /* 破線の間隔 */
+    stroke-dashoffset: 4000; /* 破線の開始位置 */
+    animation: DASH 8s ease-in-out alternate 0s forwards; /* アニメーション */
+    -webkit-animation: DASH 2s ease-in-out alternate 0s forwards;
+}
+
+.logo1{
+    stroke: #000;
+    fill: none;
+    stroke-width: 2.5;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 8s ease-in-out alternate 0s forwards;
+    animation-delay: 2s;
+    -webkit-animation: DASH 2s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 1s;
+}
+
+.logo2{
+    stroke: #000;
+    fill: none;
+    stroke-width: 3;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 8s ease-in-out alternate 0s forwards;
+    animation-delay: 3s;
+    -webkit-animation: DASH 1s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 4s;
+}
+
+.logo3{
+    stroke: #000;
+    fill: none;
+    stroke-width: 3;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 8s ease-in-out alternate 0s forwards;
+    animation-delay: 3s;
+    -webkit-animation: DASH 1s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 4.2s;
+}
+
+.logo4{
+    stroke: #000;
+    fill: none;
+    stroke-width: 3;
+    stroke-dasharray:  4000;
+    stroke-dashoffset: 4000;
+    animation: DASH 8s ease-in-out alternate 0s forwards;
+    animation-delay: 3s;
+    -webkit-animation: DASH 1s ease-in-out alternate 0s forwards;
+    -webkit-animation-delay: 4.4s;
+}
+
+@keyframes DASH {
+    0% {
+        stroke-dashoffset: 4000;
+        }
+    100% {
+        stroke-dashoffset: 0;
+        }
+    }
+
+@-webkit-keyframes DASH {
+    0% {
+        stroke-dashoffset: 4000;
+    }
+    100% {
+        stroke-dashoffset: 0;
+      }
+    }
