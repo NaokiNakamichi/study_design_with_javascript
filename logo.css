@@ -2,6 +2,19 @@
 /* TextアニメーションCSS コード */
 /* =========================================== */
 
+
+
+.box {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+    align-items: center; /* 縦方向中央揃え */
+    justify-content: center; /* 横方向中央揃え */
+    flex-direction: column;
+  }
+
 .logo0{
     stroke: #000; /* 文字色 */
     fill: none; /* 塗りつぶし無し */
