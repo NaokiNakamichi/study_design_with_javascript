@@ -4,6 +4,106 @@
 
 
 
+
+#horizon1 {
+    position: relative;
+    top: -49%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon2 {
+    position: relative;
+    top: -40%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon3 {
+    position: relative;
+    top: -30%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon4 {
+    position: relative;
+    top: -20%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon5 {
+    position: relative;
+    top: -10%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon6 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon7 {
+    position: relative;
+    top: 10%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon8 {
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon9 {
+    position: relative;
+    top: 30%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon10 {
+    position: relative;
+    top: 40%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
+#horizon11 {
+    position: relative;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+}
+
 .box {
     width: 100%;
     height: 100vh;
