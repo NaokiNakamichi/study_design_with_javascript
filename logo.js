@@ -1,6 +1,6 @@
 
 $(function() {
-    winW = $(window).width();
+    winW = $(window).width() * 2;
     spped = 2000;
     $('#horizon1').animate({
         width: winW
