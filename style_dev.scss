@@ -1,0 +1,39 @@
+$cwhite: white;
+$cblack: black;
+
+
+.rect{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: $cblack;
+  transform: translate(100%, 100%);
+
+
+}
+
+// #containre {
+//   text-align: center;
+// }
+
+// .btn {
+//   background-color: $cwhite;
+//   color: $cblack;
+//   border: 2px solid $cblack;
+//   padding: 10px 40px;
+//   margin: 50px 0px;
+//   font-weight: 600;
+//   cursor: pointer;
+//   transition: all 1s;
+
+//   &.float {
+//     &:hover{
+//       box-shadow: 5px 5px 10px 0 #00000085;
+//     }
+//   }
+
+//   &:hover {
+//     background-color: $cblack;
+//     color: $cwhite;
+//   }
+// }
